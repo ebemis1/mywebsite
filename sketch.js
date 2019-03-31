@@ -1,3 +1,19 @@
+
+//leaving the leafvars in here bc i still wanna get the leaves moving i just dont know how yet and i don't really have time rn 
+
+var LeafaX = 262.167
+var LeafaY = 354.861
+var LeafbX = 290.977
+var LeafbY = 334.722
+var LeafcX = 308.945
+var LeafcY = 319.444
+var LeafdX = 341.334
+var LeafdY = 301.389
+
+var recX = 44
+
+var speed1 = 0.5
+
 function setup() {
   createCanvas(500, 500);
 }
@@ -38,15 +54,15 @@ fill(255,253,158)
   rect(242.118, 331.5, 0, 68.75)
   rect(248.049, 346.07, 0, 39.611)
     //leaf
-  rect(262.167, 354.861, 28.81, 15.278)
-  rect(290.977, 334.722, 27.778, 27.778)
-  rect(308.945, 319.444, 40.722, 26.625)
-  rect(341.334, 301.389, 42.111, 30.112)
+  rect(LeafaX, LeafaY, 28.81, 15.278)
+  rect(LeafbX, LeafbY, 27.778, 27.778)
+  rect(LeafcX, LeafcY, 40.722, 26.625)
+  rect(LeafdX, LeafdY, 42.111, 30.112)
   
 //pot windowsill thing idk man
         fill(186,205,204)
         noStroke()
-  rect(44,445, 409,23)
+  rect(recX,445, 409,23)
   
   
 //the petals i guess
@@ -110,4 +126,12 @@ fill(255,253,158)
   //center
   fill(255,215,130)
   circle(242, 143.5, 93.065/2)
+  
+  if (recX > width-409){ 
+    speed1 = -0.5
+  }
+  else if (recX < 0){
+    speed1 = 0.5
+  }
+  recX = recX + speed1
 }
