@@ -18,8 +18,9 @@ var speed3 = 0.5
 var speed4 = 0.5 
 
 function setup() {
-  var canvas = createCanvas(windowWidth, 500);
-  }
+    var canvas = createCanvas(windowWidth, 500);
+    canvas.parent('header');
+}
 
 function draw() {
   background(131,184,195);
