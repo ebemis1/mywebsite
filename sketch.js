@@ -1,3 +1,4 @@
+//leaving the leafvars in here bc i still wanna get the leaves moving i just dont know how yet and i don't really have time rn 
 //coords txt (540.289,461.836,93.577,22.827)
 
 var LeafaX = 262.167
@@ -17,9 +18,8 @@ var speed3 = 0.5
 var speed4 = 0.5 
 
 function setup() {
-    var canvas = createCanvas(windowWidth, 500);
-  canvas.parent('header');
-}
+  var canvas = createCanvas(windowWidth, 500);
+  }
 
 function draw() {
   background(131,184,195);
