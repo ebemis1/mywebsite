@@ -1,4 +1,4 @@
-//leaving the leafvars in here bc i still wanna get the leaves moving i just dont know how yet and i don't really have time rn 
+//i am going to shit bricks if this doesn't start working right 
 //coords txt (540.289,461.836,93.577,22.827)
 
 var LeafaX = 262.167
@@ -121,7 +121,7 @@ fill(255,253,158)
           vertex(188.768, 117.572)
         endShape()
   
-  //these are going to be the rotated petals. I'll comment them out for less confusion for now. 
+  //these are going to be the rotated petals
   //petals are clockwise starting from the top right
             //petalr1
               beginShape()
@@ -186,7 +186,7 @@ fill(255,253,158)
                   vertex(202.208, 5.078)
                   vertex(237.206, 82.752)
                   vertex(202.383, 98.442)
-              endShape()
+              endShape();
   noStroke()
   //center
   fill(255,215,130)
