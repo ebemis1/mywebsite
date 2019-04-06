@@ -19,7 +19,7 @@ var speed4 = 0.5
 
 function setup() {
     var canvas = createCanvas(windowWidth, 500);
-    
+    canvas.parent('header');
 }
 
 function draw() {
@@ -187,16 +187,16 @@ fill(255,253,158)
                   vertex(237.206, 82.752)
                   vertex(202.383, 98.442)
               endShape();
-  noStroke()
+  //noStroke()
   //center
-  fill(255,215,130)
-  circle(244, 143.403, 93.065/2)
+  //fill(255,215,130)
+ // circle(244, 143.403, 93.065/2)
   
   //circlethingthat makes it not ugly 
-  noFill()
-  stroke(255,255,255)
-  strokeWeight(11)
-  circle(243.915,143.336,111.165/2)
+  //noFill()
+  //stroke(255,255,255)
+  //strokeWeight(11)
+  //circle(243.915,143.336,111.165/2)
   
 //leafbox1 animation
   if (LeafaY < 347.07){
