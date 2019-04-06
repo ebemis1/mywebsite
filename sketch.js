@@ -39,14 +39,14 @@ fill(255,253,158)
     endShape()
   
     //yellow2
-    beginShape()
+    //beginShape()
   
-      vertex(209.88, 225.239)
-      vertex(157.231, 153.582)
-      vertex(278.12, 64.761)
-      vertex(330.769, 136.418)
+      //vertex(209.88, 225.239)
+      //vertex(157.231, 153.582)
+      //vertex(278.12, 64.761)
+      //vertex(330.769, 136.418)
   
-    endShape()
+    //endShape()
   
 //stem and leaf
     fill(173,234,166)
@@ -187,16 +187,16 @@ fill(255,253,158)
                   vertex(237.206, 82.752)
                   vertex(202.383, 98.442)
               endShape();
-  //noStroke()
+  noStroke()
   //center
-  //fill(255,215,130)
- // circle(244, 143.403, 93.065/2)
+  fill(255,215,130)
+  circle(244, 143.403, 93.065/2)
   
   //circlethingthat makes it not ugly 
-  //noFill()
-  //stroke(255,255,255)
-  //strokeWeight(11)
-  //circle(243.915,143.336,111.165/2)
+  noFill()
+  stroke(255,255,255)
+  strokeWeight(11)
+  circle(243.915,143.336,111.165/2)
   
 //leafbox1 animation
   if (LeafaY < 347.07){
