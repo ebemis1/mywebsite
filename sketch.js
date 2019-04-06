@@ -38,15 +38,15 @@ fill(255,253,158)
     
     endShape()
   
-    //yellow2
-    //beginShape()
+    yellow2
+    beginShape()
   
-      //vertex(209.88, 225.239)
-      //vertex(157.231, 153.582)
-      //vertex(278.12, 64.761)
-      //vertex(330.769, 136.418)
+      vertex(209.88, 225.239)
+      vertex(157.231, 153.582)
+      vertex(278.12, 64.761)
+      vertex(330.769, 136.418)
   
-    //endShape()
+    endShape()
   
 //stem and leaf
     fill(173,234,166)
