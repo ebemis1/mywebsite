@@ -17,13 +17,18 @@ var speed2 = 0.5
 var speed3 = 0.5
 var speed4 = 0.5 
 
+let myFont;
+function preload() {
+  myFont = loadFont('Raleway.ttf');
+}
+
 function setup() {
     var canvas = createCanvas(windowWidth, 500);
     canvas.parent('header');
 }
 
 function draw() {
-  background(131,184,195);
+  background('#dbf0ee');
   
 //the yellow things
 fill(255,253,158)
@@ -232,7 +237,8 @@ fill(255,253,158)
    LeafdY = LeafdY + speed1
   
   noStroke()
-  fill(255,255,255)
+  fill('#a21c3b')
+    textFont(myFont)
   textSize(24)
   text('Erin Bemis',480,461)
 }
