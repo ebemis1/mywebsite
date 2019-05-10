@@ -1,22 +1,59 @@
-﻿html {
+html {
     margin: 0;
 }
 
 body {
-    background-color: rgb(131,184,195);
+    background-color: #dbf0ee;
 }
 
 #header{
-    margin:0;
+    max-width: 642px;
+    margin:auto;
+    z-index:1; 
 }
 
 #portfolio {
-    max-width: 500px;
+    font-family: 'Raleway', sans-serif;
+    background-color: white;
+    max-width: 543px;
     margin:auto;
+    z-index: 3;
 }
 
 #portfolio img{
     max-width: 500px;
     padding: 20px;
-
 }
+#portfolio p{
+	font-family: 'Raleway', sans-serif;
+    color:#a21c3b; 
+	padding-left: 20px;
+    padding-right:20px;
+	margin-top: 3px;
+	margin-bottom: 50px;
+}
+#h_stripe {
+	margin-top:auto;
+    margin-bottom:100px;
+	background-color:#690b18;
+	margin:auto;
+	width: 50%;
+	height:15px;
+}
+#h_stripeW {
+    background-color: white;
+	margin: auto;
+	margin-top: -50px;
+	margin-bottom: 0px;
+    max-width: 543px;
+	height:65px;
+    z-index: 7
+}
+
+#h_stripeBottom {
+	margin-top:0px;
+    margin-bottom:0px;
+	background-color:#690b18;
+	margin:auto;
+	width: 50%;
+	height:15px;
